@@ -226,6 +226,7 @@ namespace Huffman
                 }
             }
             Console.WriteLine("\nДекодированная пользовательская строка:\n" + decStr);
+            Console.ReadKey();
         }
     }
 }
